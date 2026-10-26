@@ -9,14 +9,14 @@ export default function HomeReviews() {
       <div className="max-w-site mx-auto px-6 md:px-12">
         <AnimateOnScroll animation="fade-up" duration={0.8} className="mb-12 text-center">
           <span className="font-body text-13 text-forest-light block mb-2 font-medium uppercase tracking-wider">Customer reviews</span>
-          <h2 className="font-display text-33 md:text-41 text-forest-ink">Rated {CLINIC_INFO.verifiedStats[0].value.toFixed(1)} out of 5</h2>
-          <p className="mx-auto mt-3 font-body text-15 text-forest-ink/75">Based on 7 Google reviews</p>
+          <h2 className="font-display text-33 md:text-41 text-forest-ink">Trusted local painters</h2>
+          <p className="mx-auto mt-3 font-body text-15 text-forest-ink/75">Customer feedback for Dom’s Painting</p>
         </AnimateOnScroll>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {CUSTOMER_REVIEWS.map((avaliação, index) => (
             <AnimateOnScroll key={avaliação.name} animation="fade-up" delay={index * 0.1} duration={0.8}>
               <article className="h-full bg-paper border border-mist p-6 md:p-7 shadow-sm">
-                <div className="mb-4 flex items-center gap-1 text-[#F4511E]" aria-label="5 de 5 estrelas">★★★★★</div>
+                <div className="mb-4 flex items-center gap-1 text-[#F5B91B]" aria-label="Customer review">★★★★★</div>
                 <p className="font-body text-15 text-forest-ink/85 leading-relaxed">{avaliação.text}</p>
                 <div className="mt-6 border-t border-mist pt-4">
                   <h3 className="font-display text-17 text-forest-ink">{avaliação.name}</h3>

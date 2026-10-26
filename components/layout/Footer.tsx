@@ -13,8 +13,8 @@ export default function Footer() {
             <div className="flex items-center gap-4 mb-5">
               <div className="w-40 h-14 sm:w-48 sm:h-[70px] bg-paper rounded-xl p-2 flex items-center justify-center flex-shrink-0 shadow-md">
                 <Image
-                  src="/images/logo.png"
-                  alt="AM Property Solutions Mackay logo"
+                  src="/doms-painting-logo.png"
+                  alt="Dom's Painting logo"
                   width={220}
                   height={80}
                   className="object-contain w-full h-full"
@@ -22,18 +22,18 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-24 md:text-30 font-medium leading-tight">
-                  AM Property Solutions Mackay
+                  Dom's Painting
                 </span>
                 <span className="font-body text-13 text-paper/70 font-medium">
-                  Handyman · Rubbish removal · Property care
+                  Painter · Roof painting · Property care
                 </span>
               </div>
             </div>
             <p className="font-body text-16 text-paper/80 leading-relaxed max-w-xl">
-              Property maintenance, repairs and outdoor services across Mackay.
+              Residential painting, repairs and outdoor services across Ayr.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 text-13 text-paper/60">
-              <a href="tel:+61410048618" className="hover:text-paper">+61 410 048 618</a>{CLINIC_INFO.contact.website && <a href={CLINIC_INFO.contact.website} target="_blank" rel="noopener noreferrer" className="hover:text-paper">landforge.com.au</a>}
+              <a href="tel:+61432453918" className="hover:text-paper">+61 432 453 918</a>{CLINIC_INFO.contact.website && <a href={CLINIC_INFO.contact.website} target="_blank" rel="noopener noreferrer" className="hover:text-paper">Dom’s Painting</a>}
               {CLINIC_INFO.contact.email && <a href={`mailto:${CLINIC_INFO.contact.email}`} className="hover:text-paper">{CLINIC_INFO.contact.email}</a>}
             </div>
           </div>
@@ -41,10 +41,10 @@ export default function Footer() {
           <div className="lg:col-span-6 lg:pl-12 flex flex-col justify-between">
             <div className="p-6 bg-paper/5 border border-mist/20 rounded-none shadow-sm">
               <span className="font-body text-13 text-lime block mb-2 font-semibold uppercase tracking-wider">
-                Property services
+                Painting services
               </span>
               <p className="font-body text-15 text-paper/90 mb-4">
-                Need a hand with a property job? Call AM Property Solutions Mackay.
+                Need a hand with a property job? Call Dom's Painting.
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
@@ -56,7 +56,7 @@ export default function Footer() {
                   Call: {CLINIC_INFO.contact.phone}
                 </a>
                 <Link
-                  href="/orcamento/"
+                  href="/quote/"
                   className="font-body text-13 text-paper/80 underline underline-offset-4 hover:text-paper"
                 >
                   Request a quote
@@ -95,7 +95,7 @@ export default function Footer() {
             <ul className="space-y-2.5 font-body text-15">
               <li>
                 <Link href="/equipe/" className="text-paper/80 hover:text-lime transition-colors">
-                  Meet Ashton at AM Property Solutions
+                  Meet Dom at Dom's Painting
                 </Link>
               </li>
               {DENTISTS.map((d) => (
@@ -118,13 +118,13 @@ export default function Footer() {
             </span>
             <ul className="space-y-2.5 font-body text-15">
               <li>
-                <Link href="/sobre/" className="text-paper/80 hover:text-lime transition-colors">
+                <Link href="/about/" className="text-paper/80 hover:text-lime transition-colors">
                   About us
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/" className="text-paper/80 hover:text-lime transition-colors">
-                  Property services
+                <Link href="/services/" className="text-paper/80 hover:text-lime transition-colors">
+                  Painting services
                 </Link>
               </li>
               <li>
@@ -133,7 +133,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/orcamento/" className="text-paper/80 hover:text-lime transition-colors">
+                <Link href="/quote/" className="text-paper/80 hover:text-lime transition-colors">
                   Request a quote
                 </Link>
               </li>
@@ -143,7 +143,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/orcamento/" className="text-paper/80 hover:text-lime transition-colors">
+                <Link href="/quote/" className="text-paper/80 hover:text-lime transition-colors">
                   Request a quote
                 </Link>
               </li>
@@ -183,7 +183,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {CLINIC_INFO.legalName}. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
-            <a href="/" className="hover:text-paper">AM Property Solutions Mackay</a>
+            <a href="/" className="hover:text-paper">Dom's Painting</a>
           </div>
         </div>
       </div>

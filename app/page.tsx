@@ -17,9 +17,9 @@ import { SERVICES } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Property services in Mackay, Queensland',
+  title: 'Painting services in Ayr, Queensland',
   description:
-    'AM Property Solutions Mackay offers handyman repairs, rubbish removal and outdoor property services. Call +61 410 048 618.',
+    'Dom's Painting offers painter repairs, roof painting and outdoor painting services. Call +61 432 453 918.',
   pathname: '/',
 });
 
@@ -44,10 +44,10 @@ export default function HomePage() {
       {/* SECTION 2A: Customer reviews */}
       <HomeReviews />
 
-      {/* SECTION 3: Property services */}
+      {/* SECTION 3: Painting services */}
       <PinnedHorizontalTrack
         items={serviceTrackItems}
-        title="Property services"
+        title="Painting services"
       />
 
       {/* Signature Brand Device 2 of 4: Full-Bleed Section Divider */}
@@ -55,7 +55,7 @@ export default function HomePage() {
         <TextureBackground variant="divider" className="opacity-30" />
       </div>
 
-      {/* SECTION 4: Why Choose AM Property Solutions Mackay */}
+      {/* SECTION 4: Why Choose Dom's Painting */}
       <HomeWhyUs />
 
       {/* SECTION 5: Meet Our team */}
@@ -67,7 +67,7 @@ export default function HomePage() {
       {/* SECTION 7: Before & After (Draggable Slider - Orchestrated Moment 3) */}
       <HomeBeforeAfter />
 
-      {/* SECTION 9: Property services Projects */}
+      {/* SECTION 9: Painting services Projects */}
       <HomeGallery />
 
       {/* SECTION 10: Frequently asked questions */}

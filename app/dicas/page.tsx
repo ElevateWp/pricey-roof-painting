@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Property tips',
   description:
-    'Dicas e informações sobre painting, property maintenance e repairs da AM Property Solutions Mackay.',
+    'Dicas e informações sobre painting, residential painting e repairs da Dom's Painting.',
   pathname: '/dicas/',
 });
 

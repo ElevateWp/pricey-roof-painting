@@ -62,7 +62,7 @@ export default function SingleBlogPage({ params }: BlogPostProps) {
     dateModified: post.lastUpdated,
     author: {
       '@type': 'Person',
-      name: author?.name || 'Equipe AM Property Solutions Mackay',
+      name: author?.name || 'Equipe Dom's Painting',
     },
     publisher: {
       '@type': 'Organization',
@@ -231,7 +231,7 @@ export default function SingleBlogPage({ params }: BlogPostProps) {
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll animation="fade-left" duration={0.8} delay={0.2}>
-            <Button href="/orcamento/" variant="lime" size="lg">
+            <Button href="/quote/" variant="lime" size="lg">
               Request a quote
             </Button>
           </AnimateOnScroll>

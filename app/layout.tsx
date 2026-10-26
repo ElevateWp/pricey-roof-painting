@@ -11,17 +11,17 @@ import { BASE_URL, generateLocalBusinessSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'AM Property Solutions Mackay | Property services in Mackay',
+    default: 'Dom's Painting | Painting services in Ayr',
     template: '%s',
   },
   description:
-    'Property maintenance, rubbish removal and outdoor services in Mackay. Call AM Property Solutions Mackay on +61 410 048 618.',
+    'Residential painting, roof painting and outdoor services in Ayr. Call Dom's Painting on +61 432 453 918.',
   keywords: [
-    'AM Property Solutions Mackay',
-    'property services Mackay and surrounding areas',
-    'property maintenance',
+    'Dom's Painting',
+    'painting services Ayr and surrounding areas',
+    'residential painting',
   ],
-  authors: [{ name: 'AM Property Solutions Mackay' }],
+  authors: [{ name: 'Dom's Painting' }],
   icons: {
     icon: [
       { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
@@ -47,7 +47,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#FF8A50] selection:text-[#171819]">
+      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#FFD966] selection:text-[#29221D]">
         <PagePreloader />
         <SiteTextReveal />
         <JsonLd data={generateLocalBusinessSchema()} />

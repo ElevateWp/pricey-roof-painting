@@ -14,17 +14,17 @@ import { CLINIC_INFO, DENTISTS } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Sobre a AM Property Solutions Mackay',
+  title: 'Sobre a Dom's Painting',
   description:
-    'Meet AM Property Solutions Mackay and learn about our property services.',
-  pathname: '/sobre/',
+    'Meet Dom's Painting and learn about our painting services.',
+  pathname: '/about/',
 });
 
 const TIMELINE = [
   {
-    year: 'Mackay and surrounding areas',
+    year: 'Ayr and surrounding areas',
     title: 'Services for your property',
-    description: 'AM Property Solutions Mackay provides practical property repairs and maintenance. Contact us to discuss your job.',
+    description: 'Dom's Painting provides practical property repairs and maintenance. Contact us to discuss your job.',
   },
 ];
 
@@ -53,17 +53,17 @@ export default function AboutPage() {
       {/* SECTION 1: Introduction */}
       <section className="py-16 md:py-24 border-b border-mist">
         <div className="max-w-site mx-auto px-6 md:px-12">
-          <Breadcrumbs items={[{ name: 'About us', path: '/sobre/' }]} />
+          <Breadcrumbs items={[{ name: 'About us', path: '/about/' }]} />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mt-8">
             <div className="lg:col-span-8">
               <AnimateOnScroll animation="fade-right" duration={0.8}>
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 font-medium uppercase tracking-wider">
-                  Sobre a AM Property Solutions Mackay
+                  Sobre a Dom's Painting
                 </span>
-                <WordRevealH1 text="Property maintenance, repairs and outdoor solutions across Mackay." />
+                <WordRevealH1 text="Residential painting, repairs and outdoor solutions across Ayr." />
                 <div className="mt-8">
-                  <ScrubbedParagraph text="A AM Property Solutions Mackay realiza services de painting, property maintenance e repairs. As reviews destacam profissionalismo, eficiência e cuidado com cada detalhe." />
+                  <ScrubbedParagraph text="A Dom's Painting realiza services de painting, residential painting e repairs. As reviews destacam profissionalismo, eficiência e cuidado com cada detalhe." />
                 </div>
               </AnimateOnScroll>
             </div>
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 <div className="p-6 bg-paper border border-mist space-y-3 font-body text-13 text-forest-ink/80 shadow-sm">
                   <div className="flex justify-between border-b border-mist pb-2">
                     <span>Ligue</span>
-                    <span className="font-medium text-forest">+61 410 048 618</span>
+                    <span className="font-medium text-forest">+61 432 453 918</span>
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -161,7 +161,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* SECTION 4: Equipe AM Property Solutions Mackay */}
+      {/* SECTION 4: Equipe Dom's Painting */}
       <section className="py-20 md:py-32 border-b border-mist">
         <div className="max-w-site mx-auto px-6 md:px-12">
           <AnimateOnScroll animation="fade-up" duration={0.8}>
@@ -171,7 +171,7 @@ export default function AboutPage() {
                   Our team
                 </span>
                 <h2 className="font-display text-33 md:text-41 text-forest-ink">
-                  Meet Ashton at AM Property Solutions
+                  Meet Dom at Dom's Painting
                 </h2>
               </div>
               <Link
@@ -191,7 +191,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* SECTION 5: Property services Work */}
+      {/* SECTION 5: Painting services Work */}
       <section className="py-20 md:py-32 border-b border-mist overflow-hidden">
         <div className="max-w-site mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -204,7 +204,7 @@ export default function AboutPage() {
                   Services para cuidar e renovar seu imóvel
                 </h2>
                 <p className="font-body text-15 md:text-17 text-forest-ink/80 leading-relaxed mb-6">
-                  Our team discusses handyman work, rubbish removal, drywall repairs, painting and the right steps for your property.
+                  Our team discusses painter work, roof painting, ceiling and wall painting, painting and the right steps for your property.
                 </p>
                 <div className="space-y-2 font-body text-13 text-forest-ink/70">
                   <div className="flex items-center gap-2">
@@ -224,15 +224,15 @@ export default function AboutPage() {
                 <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                   <MediaParallax speed={0.08} className="w-full h-full">
                     <Image
-                      src="/images/plumbing-technician.jpg"
-                      alt="Service residencial em andamento"
+                      src="/images/roofing-hero.png"
+                      alt="Residential painting em andamento"
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover"
                     />
                   </MediaParallax>
                   <div className="absolute bottom-3 left-3 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-3 py-1 font-medium border border-mist/50">
-                    Service residencial
+                    Residential painting
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -259,7 +259,7 @@ export default function AboutPage() {
             <AnimateOnScroll animation="zoom-in" delay={0.1}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/plumbing-repair.jpg"
+                  src="/images/roof-repair.png"
                   alt="Project residencial"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -273,21 +273,21 @@ export default function AboutPage() {
             <AnimateOnScroll animation="zoom-in" delay={0.2}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/plumbing-pipes.jpg"
+                  src="/images/roofb3-1.jpg"
                   alt="Project de reparo residencial"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"
                 />
                 <div className="absolute bottom-2 left-2 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-2.5 py-0.5 border border-mist/50">
-                  Property services
+                  Painting services
                 </div>
               </div>
             </AnimateOnScroll>
             <AnimateOnScroll animation="zoom-in" delay={0.3}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/plumbing-hot-water.jpg"
+                  src="/images/roof-saffron-walden-1024x768-1.jpg"
                   alt="Project residencial"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -320,7 +320,7 @@ export default function AboutPage() {
           </AnimateOnScroll>
           <AnimateOnScroll animation="fade-left" duration={0.8} delay={0.2}>
             <div className="flex flex-wrap items-center gap-4">
-              <Button href="/orcamento/" variant="lime" size="lg">
+              <Button href="/quote/" variant="lime" size="lg">
                 Request a quote
               </Button>
               <Button href="/contato/" variant="ghost-light" size="lg">

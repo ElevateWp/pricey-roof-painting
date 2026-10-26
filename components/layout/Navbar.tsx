@@ -36,17 +36,17 @@ export default function Navbar() {
     <>
     <header
       data-site-header
-      className="fixed top-0 left-0 right-0 z-50 bg-paper/95 backdrop-blur-md py-2.5 sm:py-3 border-b border-[#E1E3E5] shadow-sm"
+      className="fixed top-0 left-0 right-0 z-50 bg-paper/95 backdrop-blur-md py-2.5 sm:py-3 border-b border-[#F0DFAE] shadow-sm"
     >
       <div className="mx-auto flex max-w-site items-center justify-between px-4 sm:px-6 md:px-12">
         {/* Brand Logo - compact on mobile */}
         <Link
           href="/"
           className="group flex items-center no-underline focus-visible:outline-offset-4 flex-shrink-0 min-w-0"
-          aria-label="AM Property Solutions Mackay"
+          aria-label="Dom's Painting"
         >
           <Image
-            src="/images/logo.png"
+            src="/doms-painting-logo.png"
             alt="Landforge logo"
             width={240}
             height={88}
@@ -67,14 +67,14 @@ export default function Navbar() {
               type="button"
               className={`font-body text-15 py-2 transition-colors flex items-center gap-1.5 cursor-pointer ${
                 SERVICES.some((service) => pathname?.startsWith(`/${service.slug}/`))
-                  ? 'text-[#171819] font-semibold'
-                  : 'text-[#171819]/80 hover:text-[#62666B] font-medium'
+                  ? 'text-[#29221D] font-semibold'
+                  : 'text-[#29221D]/80 hover:text-[#6F6257] font-medium'
               }`}
               aria-expanded={servicesDropdownOpen}
             >
               <span>Services</span>
               <span
-                className={`w-1.5 h-1.5 border-r border-b border-[#171819]/60 transition-transform duration-200 ${
+                className={`w-1.5 h-1.5 border-r border-b border-[#29221D]/60 transition-transform duration-200 ${
                   servicesDropdownOpen ? '-rotate-135 -translate-y-0.5' : 'rotate-45 translate-y-[-2px]'
                 }`}
                 aria-hidden="true"
@@ -84,7 +84,7 @@ export default function Navbar() {
             {/* Dropdown Panel with Pure White Background and Smooth Shadow */}
             {servicesDropdownOpen && (
               <div className="absolute top-full -left-4 pt-2 w-64 z-50 animate-fade-in">
-                <div className="p-2 bg-paper border border-[#E1E3E5] shadow-[0_12px_36px_rgba(17,17,17,0.08)] rounded-2xl">
+                <div className="p-2 bg-paper border border-[#F0DFAE] shadow-[0_12px_36px_rgba(17,17,17,0.08)] rounded-2xl">
                   <div className="space-y-0.5">
                     {SERVICES.map((s) => (
                       <Link
@@ -92,8 +92,8 @@ export default function Navbar() {
                         href={`/${s.slug}/`}
                         className={`block px-3.5 py-2 text-14 font-body transition-all duration-200 rounded-xl ${
                           pathname === `/${s.slug}/`
-                            ? 'bg-[#F4F5F6] text-[#171819] font-semibold shadow-xs'
-                            : 'text-[#171819]/85 hover:bg-[#F4F5F6]/50 hover:text-[#62666B] hover:translate-x-1'
+                            ? 'bg-[#FFF9E8] text-[#29221D] font-semibold shadow-xs'
+                            : 'text-[#29221D]/85 hover:bg-[#FFF9E8]/50 hover:text-[#6F6257] hover:translate-x-1'
                         }`}
                       >
                         <span className="block font-medium">{s.navLabel}</span>
@@ -106,11 +106,11 @@ export default function Navbar() {
           </div>
 
           <Link
-            href="/sobre/"
+            href="/about/"
             className={`font-body text-15 py-2 transition-colors ${
-              pathname === '/sobre/'
-                ? 'text-[#171819] font-semibold'
-                : 'text-[#171819]/80 hover:text-[#62666B] font-medium'
+              pathname === '/about/'
+                ? 'text-[#29221D] font-semibold'
+                : 'text-[#29221D]/80 hover:text-[#6F6257] font-medium'
             }`}
           >
             About us
@@ -120,8 +120,8 @@ export default function Navbar() {
             href="/avaliacoes/"
             className={`font-body text-15 py-2 transition-colors ${
               pathname?.startsWith('/avaliacoes')
-                ? 'text-[#171819] font-semibold'
-                : 'text-[#171819]/80 hover:text-[#62666B] font-medium'
+                ? 'text-[#29221D] font-semibold'
+                : 'text-[#29221D]/80 hover:text-[#6F6257] font-medium'
             }`}
           >
             Reviews
@@ -131,8 +131,8 @@ export default function Navbar() {
             href="/equipe/"
             className={`font-body text-15 py-2 transition-colors ${
               pathname?.startsWith('/equipe')
-                ? 'text-[#171819] font-semibold'
-                : 'text-[#171819]/80 hover:text-[#62666B] font-medium'
+                ? 'text-[#29221D] font-semibold'
+                : 'text-[#29221D]/80 hover:text-[#6F6257] font-medium'
             }`}
           >
             Our team
@@ -142,8 +142,8 @@ export default function Navbar() {
             href="/dicas/"
             className={`font-body text-15 py-2 transition-colors ${
               pathname?.startsWith('/dicas')
-                ? 'text-[#171819] font-semibold'
-                : 'text-[#171819]/80 hover:text-[#62666B] font-medium'
+                ? 'text-[#29221D] font-semibold'
+                : 'text-[#29221D]/80 hover:text-[#6F6257] font-medium'
             }`}
           >
             Property tips
@@ -153,8 +153,8 @@ export default function Navbar() {
             href="/contato/"
             className={`font-body text-15 py-2 transition-colors ${
               pathname === '/contato/'
-                ? 'text-[#171819] font-semibold'
-                : 'text-[#171819]/80 hover:text-[#62666B] font-medium'
+                ? 'text-[#29221D] font-semibold'
+                : 'text-[#29221D]/80 hover:text-[#6F6257] font-medium'
             }`}
           >
             Contact
@@ -163,14 +163,14 @@ export default function Navbar() {
 
         <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
           <Link
-            href="/orcamento/"
-            className="hidden xl:inline-flex h-10 w-[176px] items-center justify-center rounded-md border border-[#F4511E] bg-[#F4511E] px-3 font-body text-13 font-semibold text-white transition-colors hover:border-[#FF6A35] hover:bg-[#FF6A35] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F4511E] whitespace-nowrap"
+            href="/quote/"
+            className="hidden xl:inline-flex h-10 w-[176px] items-center justify-center rounded-md border border-[#F5B91B] bg-[#F5B91B] px-3 font-body text-13 font-semibold text-white transition-colors hover:border-[#E89A0B] hover:bg-[#E89A0B] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F5B91B] whitespace-nowrap"
           >
             <span>Request a quote</span>
           </Link>
 
           <Button
-            href="/orcamento/"
+            href="/quote/"
             variant="forest"
             size="sm"
             className="h-9 w-[160px] hidden xl:inline-flex items-center justify-center gap-2 px-2 text-12 sm:text-13 font-semibold whitespace-nowrap"
@@ -182,24 +182,24 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="xl:hidden p-2 text-[#171819] focus-visible:outline-offset-2 flex items-center justify-center cursor-pointer rounded-lg hover:bg-[#F4F5F6] transition-colors"
+            className="xl:hidden p-2 text-[#29221D] focus-visible:outline-offset-2 flex items-center justify-center cursor-pointer rounded-lg hover:bg-[#FFF9E8] transition-colors"
             aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
             aria-controls="mobile-navigation"
             aria-expanded={mobileMenuOpen}
           >
             <div className="w-6 h-5 relative flex flex-col justify-between">
               <span
-                className={`w-full h-[2px] bg-[#171819] transition-transform duration-250 ${
+                className={`w-full h-[2px] bg-[#29221D] transition-transform duration-250 ${
                   mobileMenuOpen ? 'rotate-45 translate-y-2' : ''
                 }`}
               />
               <span
-                className={`w-full h-[2px] bg-[#171819] transition-opacity duration-200 ${
+                className={`w-full h-[2px] bg-[#29221D] transition-opacity duration-200 ${
                   mobileMenuOpen ? 'opacity-0' : 'opacity-100'
                 }`}
               />
               <span
-                className={`w-full h-[2px] bg-[#171819] transition-transform duration-250 ${
+                className={`w-full h-[2px] bg-[#29221D] transition-transform duration-250 ${
                   mobileMenuOpen ? '-rotate-45 -translate-y-2' : ''
                 }`}
               />
@@ -214,7 +214,7 @@ export default function Navbar() {
         id="mobile-navigation"
         aria-label="Mobile navigation"
         aria-hidden={!mobileMenuOpen}
-        className={`xl:hidden fixed inset-x-0 top-[95px] sm:top-[110px] md:top-[121px] bottom-0 bg-paper border-t border-[#E1E3E5] overflow-y-auto overscroll-contain px-4 sm:px-6 py-5 sm:py-6 flex flex-col justify-between z-[999] transition-all duration-300 ease-in-out shadow-2xl ${
+        className={`xl:hidden fixed inset-x-0 top-[95px] sm:top-[110px] md:top-[121px] bottom-0 bg-paper border-t border-[#F0DFAE] overflow-y-auto overscroll-contain px-4 sm:px-6 py-5 sm:py-6 flex flex-col justify-between z-[999] transition-all duration-300 ease-in-out shadow-2xl ${
           mobileMenuOpen
             ? 'opacity-100 pointer-events-auto translate-y-0'
             : 'opacity-0 pointer-events-none -translate-y-4'
@@ -227,14 +227,14 @@ export default function Navbar() {
               onClick={() => setMobileServicesOpen((open) => !open)}
               aria-expanded={mobileServicesOpen}
               aria-controls="mobile-services-list"
-              className="flex min-h-12 w-full items-center justify-between py-2 text-left font-body text-13 font-bold uppercase tracking-wider text-[#171819]"
+              className="flex min-h-12 w-full items-center justify-between py-2 text-left font-body text-13 font-bold uppercase tracking-wider text-[#29221D]"
             >
               <span>Services</span>
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
                 aria-hidden="true"
-                className={`mr-1 h-4 w-4 text-[#171819]/70 transition-transform duration-200 ${
+                className={`mr-1 h-4 w-4 text-[#29221D]/70 transition-transform duration-200 ${
                   mobileServicesOpen ? 'rotate-180' : 'rotate-0'
                 }`}
               >
@@ -253,8 +253,8 @@ export default function Navbar() {
                     }}
                     className={`flex min-h-11 items-center rounded-md px-3 font-body text-15 transition-colors ${
                       pathname === `/${s.slug}/`
-                        ? 'bg-[#FF8A50] font-semibold text-[#171819]'
-                        : 'text-[#171819] hover:bg-[#F4F5F6] hover:text-[#62666B]'
+                        ? 'bg-[#FFD966] font-semibold text-[#29221D]'
+                        : 'text-[#29221D] hover:bg-[#FFF9E8] hover:text-[#6F6257]'
                     }`}
                   >
                     {s.navLabel}
@@ -264,12 +264,12 @@ export default function Navbar() {
             )}
           </div>
 
-          <div className="pt-4 border-t border-[#E1E3E5] flex flex-col space-y-3">
+          <div className="pt-4 border-t border-[#F0DFAE] flex flex-col space-y-3">
             <Link
-              href="/sobre/"
+              href="/about/"
               onClick={() => setMobileMenuOpen(false)}
               className={`font-body text-16 transition-colors ${
-                pathname === '/sobre/' ? 'text-[#171819] font-semibold' : 'text-[#171819] hover:text-[#62666B]'
+                pathname === '/about/' ? 'text-[#29221D] font-semibold' : 'text-[#29221D] hover:text-[#6F6257]'
               }`}
             >
               About us
@@ -278,7 +278,7 @@ export default function Navbar() {
               href="/avaliacoes/"
               onClick={() => setMobileMenuOpen(false)}
               className={`font-body text-16 transition-colors ${
-                pathname?.startsWith('/avaliacoes') ? 'text-[#171819] font-semibold' : 'text-[#171819] hover:text-[#62666B]'
+                pathname?.startsWith('/avaliacoes') ? 'text-[#29221D] font-semibold' : 'text-[#29221D] hover:text-[#6F6257]'
               }`}
             >
               Reviews
@@ -287,15 +287,15 @@ export default function Navbar() {
               href="/equipe/"
               onClick={() => setMobileMenuOpen(false)}
               className={`font-body text-16 transition-colors ${
-                pathname?.startsWith('/equipe') ? 'text-[#171819] font-semibold' : 'text-[#171819] hover:text-[#62666B]'
+                pathname?.startsWith('/equipe') ? 'text-[#29221D] font-semibold' : 'text-[#29221D] hover:text-[#6F6257]'
               }`}
             >
               Our team
             </Link>
             <Link
-              href="/orcamento/"
+              href="/quote/"
               onClick={() => setMobileMenuOpen(false)}
-              className={`font-body text-16 font-semibold text-[#171819] hover:underline`}
+              className={`font-body text-16 font-semibold text-[#29221D] hover:underline`}
             >
               Request a quote
             </Link>
@@ -303,7 +303,7 @@ export default function Navbar() {
               href="/dicas/"
               onClick={() => setMobileMenuOpen(false)}
               className={`font-body text-16 transition-colors ${
-                pathname?.startsWith('/dicas') ? 'text-[#171819] font-semibold' : 'text-[#171819] hover:text-[#62666B]'
+                pathname?.startsWith('/dicas') ? 'text-[#29221D] font-semibold' : 'text-[#29221D] hover:text-[#6F6257]'
               }`}
             >
               Property tips
@@ -312,7 +312,7 @@ export default function Navbar() {
               href="/contato/"
               onClick={() => setMobileMenuOpen(false)}
               className={`font-body text-16 transition-colors ${
-                pathname === '/contato/' ? 'text-[#171819] font-semibold' : 'text-[#171819] hover:text-[#62666B]'
+                pathname === '/contato/' ? 'text-[#29221D] font-semibold' : 'text-[#29221D] hover:text-[#6F6257]'
               }`}
             >
               Contact
@@ -320,9 +320,9 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="pt-6 mt-6 border-t border-[#E1E3E5] flex flex-col gap-3 pb-8">
+        <div className="pt-6 mt-6 border-t border-[#F0DFAE] flex flex-col gap-3 pb-8">
           <Button
-            href="/orcamento/"
+            href="/quote/"
             variant="forest"
             size="lg"
             className="w-full"
@@ -332,7 +332,7 @@ export default function Navbar() {
           </Button>
           <a
             href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`}
-            className="text-center font-body text-15 text-[#171819] py-2 font-semibold hover:text-[#62666B] transition-colors"
+            className="text-center font-body text-15 text-[#29221D] py-2 font-semibold hover:text-[#6F6257] transition-colors"
           >
             Call: {CLINIC_INFO.contact.phone}
           </a>

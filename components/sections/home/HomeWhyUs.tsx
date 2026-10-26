@@ -18,7 +18,7 @@ const REASONS = [
   },
   {
     title: 'Services for your property',
-    description: 'Our services include fencing, landscaping, earthworks, rubbish removal, handyman work, drywall repairs and painting.',
+    description: 'Our services include fencing, landscaping, roof repairs, roof painting, painter work, ceiling and wall painting.',
   },
 ];
 
@@ -34,7 +34,7 @@ export default function HomeWhyUs() {
                 How we work
               </span>
               <h2 className="font-display text-26 sm:text-33 md:text-41 text-forest-ink mb-8 md:mb-10 leading-tight">
-                Property services to look after your home
+                Painting services to look after your home
               </h2>
 
               <div className="divide-y divide-mist">
@@ -65,21 +65,21 @@ export default function HomeWhyUs() {
                 <div className="col-span-2 relative aspect-[16/10] bg-mist overflow-hidden border border-mist shadow-sm">
                   <MediaParallax speed={0.06} className="w-full h-full">
                     <Image
-                    src="/images/plumbing-technician.jpg"
-                    alt="Service residencial"
+                    src="/images/roofing-hero.png"
+                    alt="Residential painting"
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover"
                     />
                   </MediaParallax>
-                  <div className="absolute bottom-3 left-3 bg-[#171819]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
-                    Property maintenance
+                  <div className="absolute bottom-3 left-3 bg-[#29221D]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
+                    Residential painting
                   </div>
                 </div>
                 {/* Additional home repairs imagery */}
                 <div className="col-span-2 sm:col-span-1 relative aspect-square bg-mist overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/plumbing-repair.jpg"
+                    src="/images/roof-repair.png"
                     alt="Project residencial"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
@@ -87,15 +87,15 @@ export default function HomeWhyUs() {
                   />
                 </div>
                 {/* Project residencial detail */}
-                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F4F5F6] overflow-hidden border border-mist shadow-sm">
+                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#FFF9E8] overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/plumbing-pipes.jpg"
+                    src="/images/roofb3-1.jpg"
                     alt="Repairs and property care"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover object-top"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-[#171819]/80 text-paper font-body text-12 px-3 py-2 text-center">
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#29221D]/80 text-paper font-body text-12 px-3 py-2 text-center">
                      Property repairs
                   </div>
                 </div>

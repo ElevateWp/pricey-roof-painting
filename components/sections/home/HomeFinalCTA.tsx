@@ -15,13 +15,13 @@ export default function HomeFinalCTA() {
 
         <AnimateOnScroll animation="fade-up" duration={0.85} delay={0.15}>
           <p className="font-body text-17 md:text-21 text-paper/80 leading-relaxed max-w-xl mb-10 mx-auto">
-            Contact AM Property Solutions Mackay to discuss your project and availability.
+            Contact Dom's Painting to discuss your project and availability.
           </p>
         </AnimateOnScroll>
 
         <AnimateOnScroll animation="zoom-in" duration={0.85} delay={0.3}>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Button href="/orcamento/" variant="lime" size="lg">
+            <Button href="/quote/" variant="lime" size="lg">
               Request a quote
             </Button>
             <Button

@@ -65,7 +65,7 @@ export function createMetadata({
 export function generateLocalBusinessSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': 'GeneralContractor',
+    '@type': 'HousePainter',
     '@id': `${BASE_URL}/#business`,
     name: CLINIC_INFO.name,
     legalName: CLINIC_INFO.legalName,
@@ -110,7 +110,7 @@ export function generateServiceSchema(serviceName: string, description: string, 
     '@type': 'Service',
     name: serviceName,
     description: description,
-    serviceType: 'Property maintenance, repairs and outdoor services',
+    serviceType: 'Residential painting, repairs and outdoor services',
     url: `${BASE_URL}${url}`,
     provider: {
       '@type': 'LocalBusiness',

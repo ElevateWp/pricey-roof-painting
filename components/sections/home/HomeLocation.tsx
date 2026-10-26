@@ -42,7 +42,7 @@ export default function HomeLocation() {
                 )}
                 <div className="flex flex-wrap gap-2 mt-4">
                   {CLINIC_INFO.identityHighlights.map((highlight) => (
-                    <span key={highlight} className="bg-[#F4F5F6] border border-[#E1E3E5] px-3 py-1.5 text-12 text-[#171819]">
+                    <span key={highlight} className="bg-[#FFF9E8] border border-[#F0DFAE] px-3 py-1.5 text-12 text-[#29221D]">
                       {highlight}
                     </span>
                   ))}
@@ -87,14 +87,14 @@ export default function HomeLocation() {
             <AnimateOnScroll animation="fade-left" duration={0.85}>
               <div className="relative aspect-[16/10] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/plumbing-technician.jpg"
-                  alt="Service residencial"
+                  src="/images/roofing-hero.png"
+                  alt="Residential painting"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover"
                 />
                 <div className="absolute bottom-3 left-3 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-3 py-1 font-medium border border-mist/50">
-                  AM Property Solutions Mackay
+                  Dom's Painting
                 </div>
               </div>
             </AnimateOnScroll>
@@ -103,7 +103,7 @@ export default function HomeLocation() {
               <div className="bg-paper border border-mist p-6 shadow-sm flex flex-col justify-between">
                 <div>
                   <span className="font-body text-13 text-forest block mb-1 font-medium uppercase tracking-wider">
-                    Property services
+                    Painting services
                   </span>
                   <h3 className="font-display text-21 text-forest-ink mb-2">
                     Property repairs, maintenance and outdoor work

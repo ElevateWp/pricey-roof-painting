@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Contact and service area',
   description:
-    'Call AM Property Solutions Mackay on +61 410 048 618 to discuss property repairs, rubbish removal or outdoor work.',
+    'Call Dom's Painting on +61 432 453 918 to discuss property repairs, roof painting or outdoor work.',
   pathname: '/contato/',
 });
 
@@ -31,9 +31,9 @@ export default function ContactPage() {
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 uppercase tracking-wider font-medium">
                   Contact e quotes
                 </span>
-                <WordRevealH1 text="Contact AM Property Solutions Mackay." />
+                <WordRevealH1 text="Contact Dom's Painting." />
                 <p className="font-body text-17 md:text-21 text-forest-ink/90 leading-relaxed mt-6 max-w-2xl">
-                  Call us to discuss home repairs, rubbish removal, drywall repair or painting.
+                  Call us to discuss home repairs, roof painting, wall painting or painting.
                 </p>
               </AnimateOnScroll>
             </div>
@@ -56,7 +56,7 @@ export default function ContactPage() {
                     Contact us
                   </h2>
                   <a
-                    href="/orcamento/"
+                    href="/quote/"
                     className="mb-5 inline-flex min-h-11 items-center bg-brand px-5 font-body text-15 font-semibold text-white transition-colors hover:bg-brand-hover"
                   >
                     Request a quote
@@ -187,7 +187,7 @@ export default function ContactPage() {
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll animation="fade-left" duration={0.8} delay={0.2}>
-            <Button href="/orcamento/" variant="lime" size="lg">
+            <Button href="/quote/" variant="lime" size="lg">
               Request a quote Online
             </Button>
           </AnimateOnScroll>

@@ -11,8 +11,8 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Request a quote',
   description:
-    'Contact AM Property Solutions Mackay to discuss your job and request a quote. Call +61 410 048 618.',
-  pathname: '/orcamento/',
+    'Contact Dom's Painting to discuss your job and request a quote. Call +61 432 453 918.',
+  pathname: '/quote/',
 });
 
 const BOOKING_STEPS = [
@@ -34,7 +34,7 @@ const BOOKING_STEPS = [
   {
     step: 4,
     title: 'Complete the agreed work',
-    description: 'A equipe da AM Property Solutions realiza o service combinado em seu imóvel.',
+    description: 'A equipe da Dom's Painting realiza o service combinado em seu imóvel.',
   },
 ];
 
@@ -44,7 +44,7 @@ export default function BookAppointmentPage() {
       {/* SECTION 1: Appointment Introduction */}
       <section className="py-16 md:py-24 border-b border-mist">
         <div className="max-w-site mx-auto px-6 md:px-12">
-          <Breadcrumbs items={[{ name: 'Request a quote', path: '/orcamento/' }]} />
+          <Breadcrumbs items={[{ name: 'Request a quote', path: '/quote/' }]} />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mt-8 items-start">
             <div className="lg:col-span-8">
@@ -179,7 +179,7 @@ export default function BookAppointmentPage() {
                 <span className="font-body text-13 text-forest block mb-2 font-medium uppercase tracking-wider">Localização</span>
                 <h3 className="font-display text-21 text-forest-ink mb-4">Service area</h3>
                 <p className="font-body text-13 text-forest-ink/80 leading-relaxed mb-3">
-                  We serve Mackay and surrounding areas. Contact us to confirm availability.
+                  We serve Ayr and surrounding areas. Contact us to confirm availability.
                 </p>
               </div>
             </AnimateOnScroll>

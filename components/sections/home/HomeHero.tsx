@@ -49,7 +49,7 @@ export default function HomeHero() {
   return (
     <div
       data-slipstream-demo
-      className="-mt-[88px] sm:-mt-[100px] md:-mt-[112px] relative w-full bg-white border-b border-[#E1E3E5] overflow-clip"
+      className="-mt-[88px] sm:-mt-[100px] md:-mt-[112px] relative w-full bg-white border-b border-[#F0DFAE] overflow-clip"
       style={{
         width: "100%",
         containerType: "inline-size",
@@ -74,39 +74,39 @@ export default function HomeHero() {
           min-height:48px;
           padding:0 28px;
           gap:20px;
-          background:#F4511E;
-          border:1px solid #242526;
+          background:#F5B91B;
+          border:1px solid #29221D;
           border-radius:9999px;
-          color:#ffffff;
+          color:#29221D;
           font-size:14px;
           font-weight:600;
           letter-spacing:0.01em;
-          box-shadow:0 6px 20px rgba(244,81,30,0.32);
+          box-shadow:0 6px 20px rgba(245,185,27,0.32);
           transition:all .2s ease;
         }
         [data-slipstream-demo] [data-gp-enter]:hover{
-          background:#FF6A35;
-          box-shadow:0 8px 26px rgba(244,81,30,0.45);
+          background:#E89A0B;
+          box-shadow:0 8px 26px rgba(245,185,27,0.45);
           transform:translateY(-1px);
         }
         [data-slipstream-demo] [data-gp-enter]:focus-visible{
-          outline:2px solid #171819;
+          outline:2px solid #29221D;
           outline-offset:4px;
         }
         [data-slipstream-demo] [data-gp-touch-picker]{top:auto;bottom:18px;left:50%;}
         [data-slipstream-demo] [data-gp-select]{
-          border:1px solid #E1E3E5;
+          border:1px solid #F0DFAE;
           border-radius:8px;
           font-size:12px;
-          color:#171819;
+          color:#29221D;
           background:#ffffff;
         }
-        [data-ch-hero-header]{position:absolute;inset:clamp(24px,4.5cqw,48px) clamp(24px,5cqw,64px) auto;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#171819;}
+        [data-ch-hero-header]{position:absolute;inset:clamp(24px,4.5cqw,48px) clamp(24px,5cqw,64px) auto;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#29221D;}
         [data-ch-hero-brand]{font-size:19px;font-weight:700;letter-spacing:-.045em;}
-        [data-ch-hero-category]{font-size:12px;line-height:1.5;color:#62666B;text-align:right;}
-        [data-ch-hero-intro]{position:absolute;inset:auto 24px calc(100% - var(--gp-word-top,35%) + 32px);margin:0;max-width:none;text-align:center;color:#62666B;font-size:13px;font-weight:500;line-height:1.5;letter-spacing:.01em;}
-        [data-ch-hero-support]{position:absolute;inset:calc(var(--gp-word-bottom,50%) + 32px) 24px auto;margin:0 auto;max-width:42ch;text-align:center;color:#62666B;font-size:16px;font-weight:400;line-height:1.5;text-wrap:balance;}
-        [data-sublime-scroll]{position:absolute;inset:auto 24px 7%;text-align:center;color:#62666B;font-size:11px;letter-spacing:.01em;}
+        [data-ch-hero-category]{font-size:12px;line-height:1.5;color:#6F6257;text-align:right;}
+        [data-ch-hero-intro]{position:absolute;inset:auto 24px calc(100% - var(--gp-word-top,35%) + 32px);margin:0;max-width:none;text-align:center;color:#6F6257;font-size:13px;font-weight:500;line-height:1.5;letter-spacing:.01em;}
+        [data-ch-hero-support]{position:absolute;inset:calc(var(--gp-word-bottom,50%) + 32px) 24px auto;margin:0 auto;max-width:42ch;text-align:center;color:#6F6257;font-size:16px;font-weight:400;line-height:1.5;text-wrap:balance;}
+        [data-sublime-scroll]{position:absolute;inset:auto 24px 7%;text-align:center;color:#6F6257;font-size:11px;letter-spacing:.01em;}
         @media(any-pointer:coarse){[data-sublime-scroll]{bottom:12%;}}
         @media(any-pointer:coarse){[data-sublime-scroll]{bottom:13%;}}
         @container(max-width:450px){
@@ -124,8 +124,8 @@ export default function HomeHero() {
         [data-slipstream-demo] [data-gp-content]{
           padding:6rem clamp(1.25rem,5cqw,5rem) 6.5rem;
           font-family:inherit;
-          background:#171819;
-          color:#ffffff;
+          background:#29221D;
+          color:#29221D;
         }
         [data-slipstream-demo] section,[data-slipstream-demo] [data-gp-caption]{font-family:inherit;}
         [data-slipstream-copy]{
@@ -139,7 +139,7 @@ export default function HomeHero() {
         [data-slipstream-copy] h2{
           max-width:48rem;
           margin:0;
-          color:#ffffff;
+          color:#29221D;
           font-size:clamp(1.75rem,1.1rem + 2.1cqw,2.4rem);
           font-weight:700;
           line-height:1.2;
@@ -158,7 +158,7 @@ export default function HomeHero() {
         }
         [data-slipstream-feature] h3{
           margin:0;
-          color:#ffffff;
+          color:#29221D;
           font-size:1.125rem;
           font-weight:600;
           line-height:1.2;
@@ -166,14 +166,14 @@ export default function HomeHero() {
         }
         [data-slipstream-feature] p{
           margin:.55rem 0 0;
-          color:#E1E3E5;
+          color:#F0DFAE;
           font-size:.9375rem;
           line-height:1.55;
         }
         [data-slipstream-no]{
           display:inline-block;
           margin-right:.7rem;
-          color:#F4511E;
+          color:#F5B91B;
           font:700 .8125rem ui-monospace,monospace;
           letter-spacing:.08em;
           transform:translateY(-.1em);
@@ -188,20 +188,20 @@ export default function HomeHero() {
 
       {face ? (
         <GlyphPortal
-          word="LANDFORGE"
+          word="DOM’S PAINTING"
           fontFamily={face}
           fontWeight={700}
           style={{
             fontFamily: face,
-            "--gp-paper": "#FFFFFF",
-            "--gp-ink": "#171819",
-            "--gp-field": "#171819",
-            "--gp-foreground": "#FFFFFF",
+            "--gp-paper": "#FFF9E8",
+            "--gp-ink": "#29221D",
+            "--gp-field": "#29221D",
+            "--gp-foreground": "#FFF9E8",
           }}
           scrollLength={2.2}
           interactive={true}
           annotations={false}
-          enterLabel="Conheça a AM Property Solutions"
+          enterLabel="Conheça a Dom's Painting"
           underlay={
             <div
               className="absolute inset-0 overflow-hidden pointer-events-none"
@@ -219,7 +219,7 @@ export default function HomeHero() {
               <div
                 className="absolute inset-0"
                 aria-hidden="true"
-                style={{ backgroundColor: "rgba(255, 255, 255, 0.52)" }}
+                style={{ backgroundColor: "rgba(255, 253, 247, 0.72)" }}
               />
             </div>
           }
@@ -244,7 +244,7 @@ export default function HomeHero() {
                 className="absolute inset-0"
                 style={{
                   background:
-                    "radial-gradient(circle at 18% 12%, rgba(244,81,30,0.28), transparent 38%), radial-gradient(circle at 82% 22%, rgba(36,37,38,0.35), transparent 32%), linear-gradient(135deg, rgba(23,24,25,0.94) 0%, rgba(23,24,25,0.9) 50%, rgba(23,24,25,0.96) 100%)",
+                    "radial-gradient(circle at 18% 12%, rgba(245,185,27,0.28), transparent 38%), radial-gradient(circle at 82% 22%, rgba(255,242,198,0.35), transparent 32%), linear-gradient(135deg, rgba(255,249,232,0.94) 0%, rgba(255,249,232,0.9) 50%, rgba(255,249,232,0.96) 100%)",
                 }}
               />
             </div>
@@ -252,12 +252,12 @@ export default function HomeHero() {
           front={
             <>
               <div data-ch-hero-header>
-                <span data-ch-hero-brand>AM Property Solutions Mackay</span>
-                <span data-ch-hero-category>Mackay · Queensland<br />Mackay and surrounding areas</span>
+                <span data-ch-hero-brand>Dom's Painting</span>
+                <span data-ch-hero-category>Ayr · Queensland<br />Ayr and surrounding areas</span>
               </div>
-              <p data-ch-hero-intro>Property maintenance, repairs and outdoor services.</p>
+              <p data-ch-hero-intro>Residential painting, repairs and outdoor services.</p>
               <p data-ch-hero-support>
-                Reliable property maintenance, repairs and outdoor work in Mackay.
+                Reliable residential painting, repairs and outdoor work in Ayr.
               </p>
               <span data-sublime-scroll>Scroll to explore ↓</span>
             </>
@@ -265,61 +265,61 @@ export default function HomeHero() {
         >
           <div data-slipstream-copy>
             <h2>
-              Property maintenance and repairs, completed with care.
+              Residential painting and repairs, completed with care.
             </h2>
 
             <div data-slipstream-features>
               <div data-slipstream-feature>
                 <h3>
                   <span data-slipstream-no>01</span>
-                  Repairs and maintenance
+                  Roof and house painting
                 </h3>
                 <p>
-                  Friendly, efficient help with jobs around the house.
+                  Tidy painting work for your home.
                 </p>
               </div>
 
               <div data-slipstream-feature>
                 <h3>
                   <span data-slipstream-no>02</span>
-                  Outdoor property solutions
+                  Interior and exterior painting
                 </h3>
                 <p>
-                  Fencing, landscaping and earthworks for your property.
+                  Fencing, landscaping and roof repairs for your property.
                 </p>
               </div>
 
               <div data-slipstream-feature>
                 <h3>
                   <span data-slipstream-no>03</span>
-                  Rubbish removal and repairs
+                  Roof painting and repairs
                 </h3>
                 <p>
-                  Tell us what needs doing and we will discuss the details.
+                  Discuss your roof, preparation and finish with our team.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-wrap items-center gap-4 pt-4">
               <Link
-                href="https://wa.me/61410048618"
-                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#F4511E] px-7 font-body text-sm font-semibold text-white shadow-[0_6px_20px_rgba(244,81,30,0.35)] transition-all hover:bg-[#FF6A35] hover:shadow-[0_8px_26px_rgba(244,81,30,0.45)]"
+                href="tel:+61432453918"
+                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#F5B91B] px-7 font-body text-sm font-semibold text-white shadow-[0_6px_20px_rgba(245,185,27,0.35)] transition-all hover:bg-[#E89A0B] hover:shadow-[0_8px_26px_rgba(245,185,27,0.45)]"
               >
-                Call or message
+                Call Dom’s Painting
                 <ArrowRight size={16} />
               </Link>
               <a
-                href="https://wa.me/61410048618"
+                href="tel:+61432453918"
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-6 font-body text-sm font-semibold text-white transition-all hover:bg-white/20"
               >
-                <Phone size={15} className="text-[#FF6A35]" />
-                Contact AM Property Solutions
+                <Phone size={15} className="text-[#E89A0B]" />
+                Contact Dom's Painting
               </a>
               <a
                 href="#home-stats"
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 font-body text-sm font-medium text-white/90 hover:bg-white/15 hover:text-white transition-all"
               >
-                <span>Explore services and reviews</span>
+                <span>Explore painting services</span>
                 <ArrowDown size={15} />
               </a>
             </div>
@@ -332,7 +332,7 @@ export default function HomeHero() {
             height: "80vh",
             display: "grid",
             placeItems: "center",
-            color: "#171819",
+            color: "#29221D",
             fontSize: 14,
             fontWeight: 500,
           }}

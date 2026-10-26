@@ -30,15 +30,15 @@ export default function HomeDentists() {
               Our team
             </span>
             <h2 className="mt-3 max-w-3xl font-display text-26 text-balance text-forest-ink md:text-41">
-              Meet Ashton at AM Property Solutions
+              Meet Dom at Dom's Painting
             </h2>
             <div className="mt-auto flex flex-col items-center pb-1">
               <p className="max-w-lg text-balance font-body text-15 leading-relaxed text-forest-ink/70">
-                A AM Property Solutions Mackay atende services de property repairs and maintenance com atenção aos detalhes.
+                A Dom's Painting atende services de property repairs and maintenance com atenção aos detalhes.
               </p>
               <Link
                 href="/equipe/"
-                className="pointer-events-auto mt-6 inline-flex rounded-full bg-[#F4511E] px-7 py-3 font-body text-15 font-semibold text-white shadow-lg shadow-[#F4511E]/20 transition-transform hover:-translate-y-0.5"
+                className="pointer-events-auto mt-6 inline-flex rounded-full bg-[#F5B91B] px-7 py-3 font-body text-15 font-semibold text-white shadow-lg shadow-[#F5B91B]/20 transition-transform hover:-translate-y-0.5"
               >
                 Meet the team <span className="ml-2" aria-hidden="true">→</span>
               </Link>

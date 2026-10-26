@@ -8,23 +8,23 @@ import { CLINIC_INFO } from '@/lib/clinic-data';
 const HOME_FAQS: AccordionItem[] = [
   {
     question: 'Quais services residenciais posso solicitar?',
-    answer: 'A AM Property Solutions atende services de painting, property maintenance, property repairs e hidráulicos, trincas, infiltrações e envernizamento de madeira.',
-    relatedLink: { href: '/servicos/', label: 'Explore our services →' },
+    answer: 'A Dom's Painting atende services de painting, residential painting, property repairs e hidráulicos, trincas, infiltrações e envernizamento de madeira.',
+    relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
-    question: 'Does AM Property Solutions Mackay serve my area?',
-    answer: 'AM Property Solutions Mackay serves Mackay and surrounding areas.',
+    question: 'Does Dom's Painting serve my area?',
+    answer: 'Dom's Painting serves Ayr and surrounding areas.',
     relatedLink: { href: '/contato/', label: 'Contact our team →' },
   },
   {
     question: 'Quais tipos de reparo são realizados?',
-    answer: 'We handle home repairs and property maintenance. Contact us to discuss the job you need done.',
-    relatedLink: { href: '/handyman-services/', label: 'Explore our services →' },
+    answer: 'We handle home repairs and residential painting. Contact us to discuss the job you need done.',
+    relatedLink: { href: '/painter-services/', label: 'Explore our services →' },
   },
   {
     question: 'Como solicito um quote?',
     answer: `Call ${CLINIC_INFO.contact.phone} or send an enquiry using the quote form.`,
-    relatedLink: { href: '/orcamento/', label: 'Request a quote →' },
+    relatedLink: { href: '/quote/', label: 'Request a quote →' },
   },
   {
     question: 'Como confirmo a disponibilidade?',
