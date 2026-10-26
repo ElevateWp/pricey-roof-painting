@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Request a quote',
   description:
-    'Contact Dom’s Painting to discuss your job and request a quote. Call +61 432 453 918.',
+    'Contact Priceys Roof Painting to discuss your job and request a quote. Call +61 434 242 175.',
   pathname: '/quote/',
 });
 
@@ -34,7 +34,7 @@ const BOOKING_STEPS = [
   {
     step: 4,
     title: 'Complete the agreed work',
-    description: 'Dom’s Painting completes the agreed painting work with care.',
+    description: 'Priceys Roof Painting completes the agreed painting work with care.',
   },
 ];
 
@@ -50,7 +50,7 @@ export default function BookAppointmentPage() {
             <div className="lg:col-span-8">
               <AnimateOnScroll animation="fade-right" duration={0.8}>
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 uppercase tracking-wider font-medium">
-                  Painting services
+                  Roofing services
                 </span>
                 <WordRevealH1 text="Request a quote." />
                 <div className="mt-8">
@@ -64,7 +64,7 @@ export default function BookAppointmentPage() {
                 <div className="p-6 bg-paper border border-mist space-y-3 font-body text-13 text-forest-ink/80 shadow-sm">
                   <span className="font-medium text-forest block">Call our team:</span>
                   <p className="text-forest-ink/70">
-                    Would you prefer to speak directly? Call during business hours.
+                    Would you prefer to speak directly? We are open 24 hours. Call us any time.
                   </p>
                   <a
                     href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`}
@@ -179,7 +179,7 @@ export default function BookAppointmentPage() {
                 <span className="font-body text-13 text-forest block mb-2 font-medium uppercase tracking-wider">Localização</span>
                 <h3 className="font-display text-21 text-forest-ink mb-4">Service area</h3>
                 <p className="font-body text-13 text-forest-ink/80 leading-relaxed mb-3">
-                  We serve Ayr and surrounding areas. Contact us to confirm availability.
+                  We serve Nelson Bay and surrounding areas. Contact us to confirm availability.
                 </p>
               </div>
             </AnimateOnScroll>

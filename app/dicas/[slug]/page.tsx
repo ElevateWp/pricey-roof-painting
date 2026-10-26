@@ -62,7 +62,7 @@ export default function SingleBlogPage({ params }: BlogPostProps) {
     dateModified: post.lastUpdated,
     author: {
       '@type': 'Person',
-      name: author?.name || 'Equipe Dom’s Painting',
+      name: author?.name || 'Equipe Priceys Roof Painting',
     },
     publisher: {
       '@type': 'Organization',

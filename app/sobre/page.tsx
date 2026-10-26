@@ -14,17 +14,17 @@ import { CLINIC_INFO, DENTISTS } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'About Dom’s Painting',
+  title: 'About Priceys Roof Painting',
   description:
-    'Meet Dom’s Painting and learn about our painting services.',
+    'Meet Priceys Roof Painting and learn about our roofing services.',
   pathname: '/about/',
 });
 
 const TIMELINE = [
   {
-    year: 'Ayr and surrounding areas',
-    title: 'Painting services',
-    description: 'Dom’s Painting provides house painting and roof painting in Ayr. Contact us to discuss your project.',
+    year: 'Nelson Bay and surrounding areas',
+    title: 'Roofing services',
+    description: 'Priceys Roof Painting provides roof restoration and roof painting in Nelson Bay. Contact us to discuss your project.',
   },
 ];
 
@@ -59,11 +59,11 @@ export default function AboutPage() {
             <div className="lg:col-span-8">
               <AnimateOnScroll animation="fade-right" duration={0.8}>
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 font-medium uppercase tracking-wider">
-                  About Dom’s Painting
+                  About Priceys Roof Painting
                 </span>
-                <WordRevealH1 text="House and roof painting in Ayr, Queensland." />
+                <WordRevealH1 text="Roof restoration and painting in Nelson Bay, NSW." />
                 <div className="mt-8">
-                  <ScrubbedParagraph text="Dom’s Painting provides roof and house painting in Ayr. Customers highlight professional, tidy work and attention to detail." />
+                  <ScrubbedParagraph text="Priceys Roof Painting provides roof restoration and roof painting in Nelson Bay. Customers highlight professional, tidy work and attention to detail." />
                 </div>
               </AnimateOnScroll>
             </div>
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 <div className="p-6 bg-paper border border-mist space-y-3 font-body text-13 text-forest-ink/80 shadow-sm">
                   <div className="flex justify-between border-b border-mist pb-2">
                     <span>Phone</span>
-                    <span className="font-medium text-forest">+61 432 453 918</span>
+                    <span className="font-medium text-forest">+61 434 242 175</span>
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -161,7 +161,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* SECTION 4: Equipe Dom’s Painting */}
+      {/* SECTION 4: Equipe Priceys Roof Painting */}
       <section className="py-20 md:py-32 border-b border-mist">
         <div className="max-w-site mx-auto px-6 md:px-12">
           <AnimateOnScroll animation="fade-up" duration={0.8}>
@@ -171,7 +171,7 @@ export default function AboutPage() {
                   Our team
                 </span>
                 <h2 className="font-display text-33 md:text-41 text-forest-ink">
-                  Meet Dom at Dom’s Painting
+                  Meet Harley at Priceys Roof Painting
                 </h2>
               </div>
               <Link
@@ -191,7 +191,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* SECTION 5: Painting services Work */}
+      {/* SECTION 5: Roofing services Work */}
       <section className="py-20 md:py-32 border-b border-mist overflow-hidden">
         <div className="max-w-site mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -204,7 +204,7 @@ export default function AboutPage() {
                   Services para cuidar e renovar seu imóvel
                 </h2>
                 <p className="font-body text-15 md:text-17 text-forest-ink/80 leading-relaxed mb-6">
-                  Our team discusses your painting project, preparation, roof repairs and the finish you want for your home.
+                  Our team discusses roof preparation, repairs, repointing and the finish you want for your property.
                 </p>
                 <div className="space-y-2 font-body text-13 text-forest-ink/70">
                   <div className="flex items-center gap-2">
@@ -225,14 +225,14 @@ export default function AboutPage() {
                   <MediaParallax speed={0.08} className="w-full h-full">
                     <Image
                       src="/images/roofing-hero.png"
-                      alt="Residential painting in progress"
+                      alt="Roof restoration in progress"
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover"
                     />
                   </MediaParallax>
                   <div className="absolute bottom-3 left-3 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-3 py-1 font-medium border border-mist/50">
-                    Residential painting
+                    Roof restoration
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -247,10 +247,10 @@ export default function AboutPage() {
           <AnimateOnScroll animation="fade-up" duration={0.8}>
             <div className="mb-12">
               <span className="font-body text-13 text-forest-ink/60 block mb-2 font-medium uppercase tracking-wider">
-                Painting project inspiration
+                Roof restoration projects
               </span>
               <h2 className="font-display text-33 md:text-41 text-forest-ink">
-                Painting project inspiration
+                Roof restoration projects
               </h2>
             </div>
           </AnimateOnScroll>
@@ -259,8 +259,8 @@ export default function AboutPage() {
             <AnimateOnScroll animation="zoom-in" delay={0.1}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/painter-interior-1.jpg"
-                  alt="Painter working on a home interior"
+                  src="/images/roof-with-tiles.png"
+                  alt="Roof restoration work"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"
@@ -273,22 +273,22 @@ export default function AboutPage() {
             <AnimateOnScroll animation="zoom-in" delay={0.2}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/painter-interior-2.jpg"
+                  src="/images/roof-saffron-walden-1024x768-1.jpg"
                   alt="Painter applying a fresh coat of paint"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"
                 />
                 <div className="absolute bottom-2 left-2 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-2.5 py-0.5 border border-mist/50">
-                  Painting services
+                  Roofing services
                 </div>
               </div>
             </AnimateOnScroll>
             <AnimateOnScroll animation="zoom-in" delay={0.3}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/painter-interior-team.jpg"
-                  alt="Painter working on a home interior"
+                  src="/images/roofb3-1.jpg"
+                  alt="Roof restoration work"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"

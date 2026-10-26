@@ -17,9 +17,9 @@ import { SERVICES } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Painting services in Ayr, Queensland',
+  title: 'Roofing services in Nelson Bay, New South Wales',
   description:
-    'Dom’s Painting offers painter repairs, roof painting and outdoor painting services. Call +61 432 453 918.',
+    'Priceys Roof Painting provides roof restoration, painting, repairs and cleaning. Call +61 434 242 175.',
   pathname: '/',
 });
 
@@ -44,10 +44,10 @@ export default function HomePage() {
       {/* SECTION 2A: Customer reviews */}
       <HomeReviews />
 
-      {/* SECTION 3: Painting services */}
+      {/* SECTION 3: Roofing services */}
       <PinnedHorizontalTrack
         items={serviceTrackItems}
-        title="Painting services"
+        title="Roofing services"
       />
 
       {/* Signature Brand Device 2 of 4: Full-Bleed Section Divider */}
@@ -55,7 +55,7 @@ export default function HomePage() {
         <TextureBackground variant="divider" className="opacity-30" />
       </div>
 
-      {/* SECTION 4: Why Choose Dom’s Painting */}
+      {/* SECTION 4: Why Choose Priceys Roof Painting */}
       <HomeWhyUs />
 
       {/* SECTION 5: Meet Our team */}
@@ -67,7 +67,7 @@ export default function HomePage() {
       {/* SECTION 7: Before & After (Draggable Slider - Orchestrated Moment 3) */}
       <HomeBeforeAfter />
 
-      {/* SECTION 9: Painting services Projects */}
+      {/* SECTION 9: Roofing services Projects */}
       <HomeGallery />
 
       {/* SECTION 10: Frequently asked questions */}

@@ -11,24 +11,21 @@ import { BASE_URL, generateLocalBusinessSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'Dom’s Painting | Painting services in Ayr',
+    default: 'Priceys Roof Painting | Roofing services in Nelson Bay',
     template: '%s',
   },
   description:
-    'Residential painting, roof painting and outdoor services in Ayr. Call Dom’s Painting on +61 432 453 918.',
+    'Roof restoration, roof painting and outdoor services in Nelson Bay. Call Priceys Roof Painting on +61 434 242 175.',
   keywords: [
-    'Dom’s Painting',
-    'painting services Ayr and surrounding areas',
-    'residential painting',
+    'Priceys Roof Painting',
+    'roofing services Nelson Bay and surrounding areas',
+    'roof restoration',
   ],
-  authors: [{ name: 'Dom’s Painting' }],
+  authors: [{ name: 'Priceys Roof Painting' }],
   icons: {
-    icon: [
-      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-192.png', sizes: '192x192', type: 'image/png' },
-    ],
-    shortcut: [{ url: '/favicon-32.png', type: 'image/png' }],
-    apple: [{ url: '/favicon-180.png', sizes: '180x180', type: 'image/png' }],
+    icon: [{ url: '/favicon.png', type: 'image/png' }],
+    shortcut: [{ url: '/favicon.png', type: 'image/png' }],
+    apple: [{ url: '/favicon.png', type: 'image/png' }],
   },
 };
 
@@ -47,7 +44,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#FFD966] selection:text-[#29221D]">
+      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#D9D9D9] selection:text-[#171717]">
         <PagePreloader />
         <SiteTextReveal />
         <JsonLd data={generateLocalBusinessSchema()} />

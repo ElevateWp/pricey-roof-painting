@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Contact and service area',
   description:
-    'Call Dom’s Painting on +61 432 453 918 to discuss house painting, roof painting or roof repairs.',
+    'Call Priceys Roof Painting on +61 434 242 175 to discuss roof restoration, roof painting or roof repairs.',
   pathname: '/contato/',
 });
 
@@ -31,9 +31,9 @@ export default function ContactPage() {
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 uppercase tracking-wider font-medium">
                   Contact and quotes
                 </span>
-                <WordRevealH1 text="Contact Dom’s Painting." />
+                <WordRevealH1 text="Contact Priceys Roof Painting." />
                 <p className="font-body text-17 md:text-21 text-forest-ink/90 leading-relaxed mt-6 max-w-2xl">
-                  Call us to discuss roof painting, interior or exterior painting, and roof repairs.
+                  Call us to discuss roof restoration, painting, repairs and cleaning.
                 </p>
               </AnimateOnScroll>
             </div>
@@ -145,7 +145,7 @@ export default function ContactPage() {
                       {CLINIC_INFO.name}
                     </h3>
                     <p className="font-body text-13 text-paper/80 leading-relaxed">
-                    Call to check availability for your painting project.
+                    Call to check availability for your roof restoration.
                     </p>
                   </div>
 

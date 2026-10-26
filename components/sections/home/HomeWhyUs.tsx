@@ -17,8 +17,8 @@ const REASONS = [
     description: 'We will discuss the job, quote and next steps for your project.',
   },
   {
-    title: 'Painting services',
-    description: 'Our services include roof painting, interior and exterior house painting, roof repairs, and ceiling and wall painting.',
+    title: 'Roofing services',
+    description: 'Our services include roof restoration, painting, tile repairs, repointing, gutter cleaning and solar panel cleaning.',
   },
 ];
 
@@ -34,7 +34,7 @@ export default function HomeWhyUs() {
                 How we work
               </span>
               <h2 className="font-display text-26 sm:text-33 md:text-41 text-forest-ink mb-8 md:mb-10 leading-tight">
-                Painting services to look after your home
+                Roofing services to look after your home
               </h2>
 
               <div className="divide-y divide-mist">
@@ -66,37 +66,37 @@ export default function HomeWhyUs() {
                   <MediaParallax speed={0.06} className="w-full h-full">
                     <Image
                     src="/images/roofing-hero.png"
-                    alt="Residential painting"
+                    alt="Roof restoration"
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover"
                     />
                   </MediaParallax>
-                  <div className="absolute bottom-3 left-3 bg-[#29221D]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
-                    Residential painting
+                  <div className="absolute bottom-3 left-3 bg-[#171717]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
+                    Roof restoration
                   </div>
                 </div>
                 {/* Additional home repairs imagery */}
                 <div className="col-span-2 sm:col-span-1 relative aspect-square bg-mist overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/painter-interior-1.jpg"
-                    alt="Painter applying paint to a home interior"
+                    src="/images/roof-with-tiles.png"
+                    alt="Roof restoration work"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover"
                   />
                 </div>
                 {/* Project residencial detail */}
-                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#FFF9E8] overflow-hidden border border-mist shadow-sm">
+                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F5F5F5] overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/painter-interior-2.jpg"
-                    alt="Painter working on a freshly prepared wall"
+                    src="/images/roof-saffron-walden-1024x768-1.jpg"
+                    alt="Roof repairs and painting"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover object-top"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-[#29221D]/80 text-paper font-body text-12 px-3 py-2 text-center">
-                     Painting services
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#171717]/80 text-paper font-body text-12 px-3 py-2 text-center">
+                     Roofing services
                   </div>
                 </div>
               </div>

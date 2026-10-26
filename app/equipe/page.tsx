@@ -9,7 +9,7 @@ import HomeDentists from '@/components/sections/home/HomeDentists';
 
 export const metadata: Metadata = createMetadata({
   title: 'Our team',
-  description: 'Meet Dom at Dom’s Painting. Call +61 432 453 918 to discuss your project.',
+  description: 'Meet Harley at Priceys Roof Painting. Call +61 434 242 175 to discuss your project.',
   pathname: '/equipe/',
 });
 
@@ -20,9 +20,9 @@ export default function TeamPage() {
         <div className="mx-auto max-w-site px-6 md:px-12">
           <Breadcrumbs items={[{ name: 'Our team', path: '/equipe/' }]} />
           <div className="mt-8 max-w-3xl">
-            <span className="mb-3 block font-body text-13 font-medium uppercase tracking-wider text-brand">Dom’s Painting</span>
-            <WordRevealH1 text="Meet Dom at Dom’s Painting." />
-            <p className="mt-6 font-body text-17 leading-relaxed text-forest-ink/85 md:text-21">Dom’s Painting provides painter work, roof painting, ceiling and wall painting. Get in touch to discuss your job.</p>
+            <span className="mb-3 block font-body text-13 font-medium uppercase tracking-wider text-brand">Priceys Roof Painting</span>
+            <WordRevealH1 text="Meet Harley at Priceys Roof Painting." />
+            <p className="mt-6 font-body text-17 leading-relaxed text-forest-ink/85 md:text-21">Priceys Roof Painting provides roof restoration, painting, tile repairs, repointing and gutter cleaning. Get in touch to discuss your job.</p>
           </div>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function TeamPage() {
 
       <section className="bg-forest py-14 text-paper md:py-20">
         <div className="mx-auto flex max-w-site flex-col items-start justify-between gap-6 px-6 md:flex-row md:items-center md:px-12">
-          <div><span className="mb-2 block font-body text-13 font-semibold uppercase tracking-wider text-paper/65">Dom’s Painting</span><h2 className="font-display text-26 md:text-33">Tell us about your project.</h2></div>
+          <div><span className="mb-2 block font-body text-13 font-semibold uppercase tracking-wider text-paper/65">Priceys Roof Painting</span><h2 className="font-display text-26 md:text-33">Tell us about your project.</h2></div>
           <Link href="/quote/" className="inline-flex min-h-12 items-center justify-center bg-paper px-6 font-body text-15 font-semibold text-forest">Request a quote</Link>
         </div>
       </section>

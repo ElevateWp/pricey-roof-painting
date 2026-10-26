@@ -7,18 +7,18 @@ import { CLINIC_INFO } from '@/lib/clinic-data';
 
 const HOME_FAQS: AccordionItem[] = [
   {
-    question: 'What painting services do you provide?',
-    answer: 'Dom’s Painting provides roof painting, interior and exterior house painting, ceiling and wall painting, and roof repairs.',
+    question: 'What roofing services do you provide?',
+    answer: 'Priceys Roof Painting provides roof painting, roof restoration and roof painting, tile repairs and repointing, and roof repairs.',
     relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
-    question: 'Does Dom’s Painting serve my area?',
-    answer: 'Dom’s Painting serves Ayr and surrounding areas.',
+    question: 'Does Priceys Roof Painting serve my area?',
+    answer: 'Priceys Roof Painting serves Nelson Bay and surrounding areas.',
     relatedLink: { href: '/contato/', label: 'Contact our team →' },
   },
   {
     question: 'What painting and roof work do you do?',
-    answer: 'We paint roofs and homes, including interiors, exteriors, ceilings and walls. Contact us to discuss your project.',
+    answer: 'We restore and paint roofs, repair tiles, repoint, clean gutters and clean solar panels. Contact us to discuss your property.',
     relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
@@ -28,7 +28,7 @@ const HOME_FAQS: AccordionItem[] = [
   },
   {
     question: 'How do I check availability?',
-    answer: `Call ${CLINIC_INFO.contact.phone} to discuss your painting project and check availability.`,
+    answer: `Call ${CLINIC_INFO.contact.phone} to discuss your roof restoration and check availability.`,
     relatedLink: { href: '/contato/', label: 'Contact our team →' },
   },
 ];

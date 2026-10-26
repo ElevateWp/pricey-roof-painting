@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { TiltedGridHero } from '@/components/ui/tilted-grid-hero';
 
 const TEAM_IMAGES = [
-  { src: '/images/painter-interior-1.jpg', alt: 'Painter at work inside a home' },
-  { src: '/images/painter-interior-2.jpg', alt: 'Painter applying paint to an interior ceiling' },
-  { src: '/images/painter-interior-team.jpg', alt: 'Painter applying a finish coat to a wall' },
+  { src: '/images/roof-with-tiles.png', alt: 'Painter at work inside a home' },
+  { src: '/images/roof-saffron-walden-1024x768-1.jpg', alt: 'Roof painting work' },
+  { src: '/images/roofb3-1.jpg', alt: 'Painter applying a finish coat to a wall' },
   { src: '/images/roofing-hero.png', alt: 'Painter working on a residential roof' },
 ];
 
@@ -30,15 +30,15 @@ export default function HomeDentists() {
               Our team
             </span>
             <h2 className="mt-3 max-w-3xl font-display text-26 text-balance text-forest-ink md:text-41">
-              Meet Dom at Dom’s Painting
+              Meet Harley at Priceys Roof Painting
             </h2>
             <div className="mt-auto flex flex-col items-center pb-1">
               <p className="max-w-lg text-balance font-body text-15 leading-relaxed text-forest-ink/70">
-                Dom’s Painting is a local Ayr team for roof and house painting, with tidy work and attention to detail.
+                Priceys Roof Painting is a local Nelson Bay team for roof restoration and roof painting, with tidy work and attention to detail.
               </p>
               <Link
                 href="/equipe/"
-                className="pointer-events-auto mt-6 inline-flex rounded-full bg-[#F5B91B] px-7 py-3 font-body text-15 font-semibold text-white shadow-lg shadow-[#F5B91B]/20 transition-transform hover:-translate-y-0.5"
+                className="pointer-events-auto mt-6 inline-flex rounded-full bg-[#222222] px-7 py-3 font-body text-15 font-semibold text-white shadow-lg shadow-[#222222]/20 transition-transform hover:-translate-y-0.5"
               >
                 Meet the team <span className="ml-2" aria-hidden="true">→</span>
               </Link>
