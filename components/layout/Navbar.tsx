@@ -43,11 +43,11 @@ export default function Navbar() {
         <Link
           href="/"
           className="group flex items-center no-underline focus-visible:outline-offset-4 flex-shrink-0 min-w-0"
-          aria-label="Dom's Painting"
+          aria-label="Dom’s Painting"
         >
           <Image
             src="/doms-painting-logo.png"
-            alt="Landforge logo"
+            alt="Dom’s Painting logo"
             width={240}
             height={88}
             priority
@@ -146,7 +146,7 @@ export default function Navbar() {
                 : 'text-[#29221D]/80 hover:text-[#6F6257] font-medium'
             }`}
           >
-            Property tips
+            Painting advice
           </Link>
 
           <Link
@@ -306,7 +306,7 @@ export default function Navbar() {
                 pathname?.startsWith('/dicas') ? 'text-[#29221D] font-semibold' : 'text-[#29221D] hover:text-[#6F6257]'
               }`}
             >
-              Property tips
+              Painting advice
             </Link>
             <Link
               href="/contato/"

@@ -7,28 +7,28 @@ import { CLINIC_INFO } from '@/lib/clinic-data';
 
 const HOME_FAQS: AccordionItem[] = [
   {
-    question: 'Quais services residenciais posso solicitar?',
-    answer: 'A Dom's Painting atende services de painting, residential painting, property repairs e hidráulicos, trincas, infiltrações e envernizamento de madeira.',
+    question: 'What painting services do you provide?',
+    answer: 'Dom’s Painting provides roof painting, interior and exterior house painting, ceiling and wall painting, and roof repairs.',
     relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
-    question: 'Does Dom's Painting serve my area?',
-    answer: 'Dom's Painting serves Ayr and surrounding areas.',
+    question: 'Does Dom’s Painting serve my area?',
+    answer: 'Dom’s Painting serves Ayr and surrounding areas.',
     relatedLink: { href: '/contato/', label: 'Contact our team →' },
   },
   {
-    question: 'Quais tipos de reparo são realizados?',
-    answer: 'We handle home repairs and residential painting. Contact us to discuss the job you need done.',
-    relatedLink: { href: '/painter-services/', label: 'Explore our services →' },
+    question: 'What painting and roof work do you do?',
+    answer: 'We paint roofs and homes, including interiors, exteriors, ceilings and walls. Contact us to discuss your project.',
+    relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
-    question: 'Como solicito um quote?',
+    question: 'How do I request a quote?',
     answer: `Call ${CLINIC_INFO.contact.phone} or send an enquiry using the quote form.`,
     relatedLink: { href: '/quote/', label: 'Request a quote →' },
   },
   {
-    question: 'Como confirmo a disponibilidade?',
-    answer: `Call ${CLINIC_INFO.contact.phone} to discuss your property and check availability.`,
+    question: 'How do I check availability?',
+    answer: `Call ${CLINIC_INFO.contact.phone} to discuss your painting project and check availability.`,
     relatedLink: { href: '/contato/', label: 'Contact our team →' },
   },
 ];

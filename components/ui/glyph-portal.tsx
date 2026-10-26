@@ -35,7 +35,7 @@ export type GlyphPortalProps = {
   enterLabel?: string;
   className?: string;
   style?: GlyphPortalStyle;
-  /** Ligueed once per rendered scroll frame, never through React state. */
+  /** Phoneed once per rendered scroll frame, never through React state. */
   onProgress?: (progress: number) => void;
 };
 
@@ -89,7 +89,7 @@ function scrollParent(element: HTMLElement): HTMLElement | null {
 }
 
 export default function GlyphPortal({
-  word = "Dom's Painting Construção", focusChar, interactive = true, background, front, underlay, children, scrollLength = 2.2,
+  word = "Dom’s Painting Construção", focusChar, interactive = true, background, front, underlay, children, scrollLength = 2.2,
   fontFamily = DEFAULT_FONT, fontWeight = 700, annotations = false,
   enterLabel = "Enter section", className, style, onProgress,
 }: GlyphPortalProps) {

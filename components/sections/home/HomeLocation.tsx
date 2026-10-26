@@ -87,14 +87,14 @@ export default function HomeLocation() {
             <AnimateOnScroll animation="fade-left" duration={0.85}>
               <div className="relative aspect-[16/10] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/roofing-hero.png"
-                  alt="Residential painting"
+                  src="/images/painter-interior-2.jpg"
+                  alt="Painter applying paint to an interior ceiling"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover"
                 />
                 <div className="absolute bottom-3 left-3 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-3 py-1 font-medium border border-mist/50">
-                  Dom's Painting
+                  Dom’s Painting
                 </div>
               </div>
             </AnimateOnScroll>
@@ -106,10 +106,10 @@ export default function HomeLocation() {
                     Painting services
                   </span>
                   <h3 className="font-display text-21 text-forest-ink mb-2">
-                    Property repairs, maintenance and outdoor work
+                    Roof, interior and exterior painting
                   </h3>
                   <p className="font-body text-13 text-forest-ink/80 mb-3 leading-relaxed">
-                    Call to discuss the property service you need.
+                    Call to discuss the painting work you need.
                   </p>
                   <div className="flex items-center gap-2 text-13 font-body text-forest">
                     <span className="w-2 h-2 rounded-full bg-forest animate-pulse" />

@@ -110,7 +110,7 @@ export function generateServiceSchema(serviceName: string, description: string, 
     '@type': 'Service',
     name: serviceName,
     description: description,
-    serviceType: 'Residential painting, repairs and outdoor services',
+    serviceType: 'House painting and roof painting',
     url: `${BASE_URL}${url}`,
     provider: {
       '@type': 'LocalBusiness',

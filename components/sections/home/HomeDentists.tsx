@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { TiltedGridHero } from '@/components/ui/tilted-grid-hero';
 
 const TEAM_IMAGES = [
-  { src: '/images/team-stock-01.jpg', alt: 'Foto ilustrativa de integrante da equipe' },
-  { src: '/images/team-stock-02.jpg', alt: 'Foto ilustrativa de integrante da equipe' },
-  { src: '/images/team-stock-03.jpg', alt: 'Foto ilustrativa de integrante da equipe' },
-  { src: '/images/team-stock-04.jpg', alt: 'Foto ilustrativa de integrante da equipe' },
+  { src: '/images/painter-interior-1.jpg', alt: 'Painter at work inside a home' },
+  { src: '/images/painter-interior-2.jpg', alt: 'Painter applying paint to an interior ceiling' },
+  { src: '/images/painter-interior-team.jpg', alt: 'Painter applying a finish coat to a wall' },
+  { src: '/images/roofing-hero.png', alt: 'Painter working on a residential roof' },
 ];
 
 export default function HomeDentists() {
@@ -30,11 +30,11 @@ export default function HomeDentists() {
               Our team
             </span>
             <h2 className="mt-3 max-w-3xl font-display text-26 text-balance text-forest-ink md:text-41">
-              Meet Dom at Dom's Painting
+              Meet Dom at Dom’s Painting
             </h2>
             <div className="mt-auto flex flex-col items-center pb-1">
               <p className="max-w-lg text-balance font-body text-15 leading-relaxed text-forest-ink/70">
-                A Dom's Painting atende services de property repairs and maintenance com atenção aos detalhes.
+                Dom’s Painting is a local Ayr team for roof and house painting, with tidy work and attention to detail.
               </p>
               <Link
                 href="/equipe/"

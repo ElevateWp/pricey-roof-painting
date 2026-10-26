@@ -19,7 +19,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Painting services in Ayr, Queensland',
   description:
-    'Dom's Painting offers painter repairs, roof painting and outdoor painting services. Call +61 432 453 918.',
+    'Dom’s Painting offers painter repairs, roof painting and outdoor painting services. Call +61 432 453 918.',
   pathname: '/',
 });
 
@@ -55,7 +55,7 @@ export default function HomePage() {
         <TextureBackground variant="divider" className="opacity-30" />
       </div>
 
-      {/* SECTION 4: Why Choose Dom's Painting */}
+      {/* SECTION 4: Why Choose Dom’s Painting */}
       <HomeWhyUs />
 
       {/* SECTION 5: Meet Our team */}

@@ -67,7 +67,7 @@ export default function SingleDentistPage({ params }: DentistProfileProps) {
         <div className="max-w-site mx-auto px-6 md:px-12">
           <Breadcrumbs
             items={[
-              { name: 'Dom's Painting team', path: '/equipe/' },
+              { name: 'Dom’s Painting team', path: '/equipe/' },
               { name: dentist.name, path: `/equipe/${dentist.slug}/` },
             ]}
           />
@@ -79,7 +79,7 @@ export default function SingleDentistPage({ params }: DentistProfileProps) {
                 <div className="relative aspect-[4/5] bg-mist overflow-hidden border border-mist shadow-sm">
                   <Image
                     src={dentist.image}
-                    alt={`Foto de ${dentist.name}`}
+                    alt={`Photo of ${dentist.name}`}
                     fill
                     priority
                     sizes="(max-width: 1024px) 100vw, 40vw"
@@ -87,8 +87,8 @@ export default function SingleDentistPage({ params }: DentistProfileProps) {
                   />
                 </div>
                 {dentist.experienceYears > 0 && <div className="mt-4 p-4 bg-mist/40 border border-mist flex justify-between text-13 font-body text-forest-ink/80">
-                  <span>Experiência da equipe:</span>
-                  <span className="font-medium text-forest">{dentist.experienceYears}+ anos de atuação</span>
+                  <span>Team experience:</span>
+                  <span className="font-medium text-forest">{dentist.experienceYears}+ years of experience</span>
                 </div>}
               </AnimateOnScroll>
             </div>

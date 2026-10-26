@@ -14,35 +14,35 @@ import { CLINIC_INFO, DENTISTS } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Sobre a Dom's Painting',
+  title: 'About Dom’s Painting',
   description:
-    'Meet Dom's Painting and learn about our painting services.',
+    'Meet Dom’s Painting and learn about our painting services.',
   pathname: '/about/',
 });
 
 const TIMELINE = [
   {
     year: 'Ayr and surrounding areas',
-    title: 'Services for your property',
-    description: 'Dom's Painting provides practical property repairs and maintenance. Contact us to discuss your job.',
+    title: 'Painting services',
+    description: 'Dom’s Painting provides house painting and roof painting in Ayr. Contact us to discuss your project.',
   },
 ];
 
 const APPROACH_STEPS = [
   {
-    title: 'Escuta e planejamento',
-    description: 'Conversamos sobre o imóvel, o service desejado e os detalhes do project.',
+    title: 'Discuss the project',
+    description: 'We discuss the surfaces, work required and details of your project.',
   },
   {
-    title: 'Quote alinhado',
-    description: 'Alinhamos o escopo do service, os materiais e os prazos antes do início.',
+    title: 'Agree on the quote',
+    description: 'We agree on the work scope, materials and timing before work begins.',
   },
   {
-    title: 'Cuidado na execução',
-    description: 'Executamos o service combinado com cuidado e atenção aos detalhes.',
+    title: 'Careful workmanship',
+    description: 'We complete the agreed work with care and attention to detail.',
   },
   {
-    title: 'Comunicação durante o service',
+    title: 'Keep you informed',
     description: 'We keep you informed from the quote through to completion.',
   },
 ];
@@ -59,11 +59,11 @@ export default function AboutPage() {
             <div className="lg:col-span-8">
               <AnimateOnScroll animation="fade-right" duration={0.8}>
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 font-medium uppercase tracking-wider">
-                  Sobre a Dom's Painting
+                  About Dom’s Painting
                 </span>
-                <WordRevealH1 text="Residential painting, repairs and outdoor solutions across Ayr." />
+                <WordRevealH1 text="House and roof painting in Ayr, Queensland." />
                 <div className="mt-8">
-                  <ScrubbedParagraph text="A Dom's Painting realiza services de painting, residential painting e repairs. As reviews destacam profissionalismo, eficiência e cuidado com cada detalhe." />
+                  <ScrubbedParagraph text="Dom’s Painting provides roof and house painting in Ayr. Customers highlight professional, tidy work and attention to detail." />
                 </div>
               </AnimateOnScroll>
             </div>
@@ -72,7 +72,7 @@ export default function AboutPage() {
               <AnimateOnScroll animation="fade-left" duration={0.8} delay={0.2}>
                 <div className="p-6 bg-paper border border-mist space-y-3 font-body text-13 text-forest-ink/80 shadow-sm">
                   <div className="flex justify-between border-b border-mist pb-2">
-                    <span>Ligue</span>
+                    <span>Phone</span>
                     <span className="font-medium text-forest">+61 432 453 918</span>
                   </div>
                 </div>
@@ -161,7 +161,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* SECTION 4: Equipe Dom's Painting */}
+      {/* SECTION 4: Equipe Dom’s Painting */}
       <section className="py-20 md:py-32 border-b border-mist">
         <div className="max-w-site mx-auto px-6 md:px-12">
           <AnimateOnScroll animation="fade-up" duration={0.8}>
@@ -171,7 +171,7 @@ export default function AboutPage() {
                   Our team
                 </span>
                 <h2 className="font-display text-33 md:text-41 text-forest-ink">
-                  Meet Dom at Dom's Painting
+                  Meet Dom at Dom’s Painting
                 </h2>
               </div>
               <Link
@@ -204,7 +204,7 @@ export default function AboutPage() {
                   Services para cuidar e renovar seu imóvel
                 </h2>
                 <p className="font-body text-15 md:text-17 text-forest-ink/80 leading-relaxed mb-6">
-                  Our team discusses painter work, roof painting, ceiling and wall painting, painting and the right steps for your property.
+                  Our team discusses your painting project, preparation, roof repairs and the finish you want for your home.
                 </p>
                 <div className="space-y-2 font-body text-13 text-forest-ink/70">
                   <div className="flex items-center gap-2">
@@ -225,7 +225,7 @@ export default function AboutPage() {
                   <MediaParallax speed={0.08} className="w-full h-full">
                     <Image
                       src="/images/roofing-hero.png"
-                      alt="Residential painting em andamento"
+                      alt="Residential painting in progress"
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover"
@@ -247,10 +247,10 @@ export default function AboutPage() {
           <AnimateOnScroll animation="fade-up" duration={0.8}>
             <div className="mb-12">
               <span className="font-body text-13 text-forest-ink/60 block mb-2 font-medium uppercase tracking-wider">
-                Property project inspiration
+                Painting project inspiration
               </span>
               <h2 className="font-display text-33 md:text-41 text-forest-ink">
-                Property service inspiration
+                Painting project inspiration
               </h2>
             </div>
           </AnimateOnScroll>
@@ -259,8 +259,8 @@ export default function AboutPage() {
             <AnimateOnScroll animation="zoom-in" delay={0.1}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/roof-repair.png"
-                  alt="Project residencial"
+                  src="/images/painter-interior-1.jpg"
+                  alt="Painter working on a home interior"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"
@@ -273,8 +273,8 @@ export default function AboutPage() {
             <AnimateOnScroll animation="zoom-in" delay={0.2}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/roofb3-1.jpg"
-                  alt="Project de reparo residencial"
+                  src="/images/painter-interior-2.jpg"
+                  alt="Painter applying a fresh coat of paint"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"
@@ -287,8 +287,8 @@ export default function AboutPage() {
             <AnimateOnScroll animation="zoom-in" delay={0.3}>
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/roof-saffron-walden-1024x768-1.jpg"
-                  alt="Project residencial"
+                  src="/images/painter-interior-team.jpg"
+                  alt="Painter working on a home interior"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"

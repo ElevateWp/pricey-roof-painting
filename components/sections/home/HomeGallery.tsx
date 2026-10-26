@@ -6,10 +6,10 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 const GALLERY_IMAGES = [
   ...Array.from({ length: 14 }, (_, index) => {
     const images = [
-      '/images/roofing-hero.png', '/images/roof-repair.png', '/images/roofb3-1.jpg',
-      '/images/roof-saffron-walden-1024x768-1.jpg', '/images/roofb3-1.jpg',
+      '/images/painter-interior-1.jpg', '/images/painter-interior-2.jpg', '/images/painter-interior-team.jpg',
+      '/images/roofing-hero.png', '/images/painter-interior-1.jpg',
     ];
-    return { src: images[index % images.length], alt: 'Imagem ilustrativa de services residenciais' };
+    return { src: images[index % images.length], alt: 'Painter working on a home painting project' };
   }),
 ];
 
@@ -19,10 +19,10 @@ export default function HomeGallery() {
       <div className="max-w-site mx-auto px-6 md:px-12">
         <AnimateOnScroll animation="fade-up" duration={0.8} className="mb-16">
           <span className="font-body text-13 text-[#F5B91B] block mb-2 font-medium uppercase tracking-wider">
-            Dom's Painting
+            Dom’s Painting
           </span>
           <h2 className="font-display text-33 md:text-41 text-[#29221D]">Painting services</h2>
-          <p className="mt-3 max-w-2xl font-body text-15 leading-relaxed text-forest-light">View property service images and contact us to discuss your project.</p>
+          <p className="mt-3 max-w-2xl font-body text-15 leading-relaxed text-forest-light">View painting project images and contact us to discuss your home.</p>
         </AnimateOnScroll>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch mb-6">

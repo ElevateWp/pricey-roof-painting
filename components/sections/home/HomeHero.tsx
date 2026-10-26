@@ -201,7 +201,7 @@ export default function HomeHero() {
           scrollLength={2.2}
           interactive={true}
           annotations={false}
-          enterLabel="Conheça a Dom's Painting"
+          enterLabel="Discover Dom’s Painting"
           underlay={
             <div
               className="absolute inset-0 overflow-hidden pointer-events-none"
@@ -233,7 +233,7 @@ export default function HomeHero() {
             >
               {/* Reparos hidráulicos photo at low opacity inside the glyph zoom destination */}
               <Image
-                src="/images/roof-repair.png"
+                src="/images/painter-interior-1.jpg"
                 alt=""
                 fill
                 className="object-cover object-center"
@@ -244,7 +244,7 @@ export default function HomeHero() {
                 className="absolute inset-0"
                 style={{
                   background:
-                    "radial-gradient(circle at 18% 12%, rgba(245,185,27,0.28), transparent 38%), radial-gradient(circle at 82% 22%, rgba(255,242,198,0.35), transparent 32%), linear-gradient(135deg, rgba(255,249,232,0.94) 0%, rgba(255,249,232,0.9) 50%, rgba(255,249,232,0.96) 100%)",
+                    "radial-gradient(circle at 18% 12%, rgba(245,185,27,0.22), transparent 38%), radial-gradient(circle at 82% 22%, rgba(41,34,29,0.16), transparent 32%), linear-gradient(135deg, rgba(41,34,29,0.72) 0%, rgba(41,34,29,0.68) 50%, rgba(41,34,29,0.76) 100%)",
                 }}
               />
             </div>
@@ -252,12 +252,12 @@ export default function HomeHero() {
           front={
             <>
               <div data-ch-hero-header>
-                <span data-ch-hero-brand>Dom's Painting</span>
+                <span data-ch-hero-brand>Dom’s Painting</span>
                 <span data-ch-hero-category>Ayr · Queensland<br />Ayr and surrounding areas</span>
               </div>
-              <p data-ch-hero-intro>Residential painting, repairs and outdoor services.</p>
+              <p data-ch-hero-intro>Roof and house painting in Ayr, Queensland.</p>
               <p data-ch-hero-support>
-                Reliable residential painting, repairs and outdoor work in Ayr.
+                Professional house and roof painting in Ayr, Queensland.
               </p>
               <span data-sublime-scroll>Scroll to explore ↓</span>
             </>
@@ -265,7 +265,7 @@ export default function HomeHero() {
         >
           <div data-slipstream-copy>
             <h2>
-              Residential painting and repairs, completed with care.
+              House and roof painting, completed with care.
             </h2>
 
             <div data-slipstream-features>
@@ -285,7 +285,7 @@ export default function HomeHero() {
                   Interior and exterior painting
                 </h3>
                 <p>
-                  Fencing, landscaping and roof repairs for your property.
+                  Refresh walls, ceilings, rooms and exteriors.
                 </p>
               </div>
 
@@ -313,7 +313,7 @@ export default function HomeHero() {
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-6 font-body text-sm font-semibold text-white transition-all hover:bg-white/20"
               >
                 <Phone size={15} className="text-[#E89A0B]" />
-                Contact Dom's Painting
+                Contact Dom’s Painting
               </a>
               <a
                 href="#home-stats"

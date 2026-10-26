@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="w-40 h-14 sm:w-48 sm:h-[70px] bg-paper rounded-xl p-2 flex items-center justify-center flex-shrink-0 shadow-md">
                 <Image
                   src="/doms-painting-logo.png"
-                  alt="Dom's Painting logo"
+                  alt="Dom’s Painting logo"
                   width={220}
                   height={80}
                   className="object-contain w-full h-full"
@@ -22,18 +22,18 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-24 md:text-30 font-medium leading-tight">
-                  Dom's Painting
+                  Dom’s Painting
                 </span>
                 <span className="font-body text-13 text-paper/70 font-medium">
-                  Painter · Roof painting · Property care
+                  Roof painting · House painting · Roof repairs
                 </span>
               </div>
             </div>
             <p className="font-body text-16 text-paper/80 leading-relaxed max-w-xl">
-              Residential painting, repairs and outdoor services across Ayr.
+              Roof and house painting in Ayr and surrounding areas.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 text-13 text-paper/60">
-              <a href="tel:+61432453918" className="hover:text-paper">+61 432 453 918</a>{CLINIC_INFO.contact.website && <a href={CLINIC_INFO.contact.website} target="_blank" rel="noopener noreferrer" className="hover:text-paper">Dom’s Painting</a>}
+              <a href="tel:+61432453918" className="hover:text-paper">+61 432 453 918</a> <a href="https://m.facebook.com/110762375088110/" target="_blank" rel="noopener noreferrer" className="hover:text-paper">Facebook</a>{CLINIC_INFO.contact.website && <a href={CLINIC_INFO.contact.website} target="_blank" rel="noopener noreferrer" className="hover:text-paper">Dom’s Painting</a>}
               {CLINIC_INFO.contact.email && <a href={`mailto:${CLINIC_INFO.contact.email}`} className="hover:text-paper">{CLINIC_INFO.contact.email}</a>}
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
                 Painting services
               </span>
               <p className="font-body text-15 text-paper/90 mb-4">
-                Need a hand with a property job? Call Dom's Painting.
+                Planning a painting project? Call Dom’s Painting.
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
@@ -95,7 +95,7 @@ export default function Footer() {
             <ul className="space-y-2.5 font-body text-15">
               <li>
                 <Link href="/equipe/" className="text-paper/80 hover:text-lime transition-colors">
-                  Meet Dom at Dom's Painting
+                  Meet Dom at Dom’s Painting
                 </Link>
               </li>
               {DENTISTS.map((d) => (
@@ -129,7 +129,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/dicas/" className="text-paper/80 hover:text-lime transition-colors">
-                  Property tips
+                  Painting advice
                 </Link>
               </li>
               <li>
@@ -183,7 +183,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {CLINIC_INFO.legalName}. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
-            <a href="/" className="hover:text-paper">Dom's Painting</a>
+            <a href="/" className="hover:text-paper">Dom’s Painting</a>
           </div>
         </div>
       </div>

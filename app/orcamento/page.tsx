@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Request a quote',
   description:
-    'Contact Dom's Painting to discuss your job and request a quote. Call +61 432 453 918.',
+    'Contact Dom’s Painting to discuss your job and request a quote. Call +61 432 453 918.',
   pathname: '/quote/',
 });
 
@@ -34,7 +34,7 @@ const BOOKING_STEPS = [
   {
     step: 4,
     title: 'Complete the agreed work',
-    description: 'A equipe da Dom's Painting realiza o service combinado em seu imóvel.',
+    description: 'Dom’s Painting completes the agreed painting work with care.',
   },
 ];
 
@@ -50,7 +50,7 @@ export default function BookAppointmentPage() {
             <div className="lg:col-span-8">
               <AnimateOnScroll animation="fade-right" duration={0.8}>
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 uppercase tracking-wider font-medium">
-                  Service personalizado
+                  Painting services
                 </span>
                 <WordRevealH1 text="Request a quote." />
                 <div className="mt-8">
@@ -94,7 +94,7 @@ export default function BookAppointmentPage() {
                     Próximas etapas
                   </h2>
                   <p className="font-body text-15 text-forest-ink/80 leading-relaxed mb-6">
-                    Entendemos seus planos e explicamos cada etapa com clareza.
+                    We discuss your plans and explain each step clearly.
                   </p>
                 </div>
               </AnimateOnScroll>

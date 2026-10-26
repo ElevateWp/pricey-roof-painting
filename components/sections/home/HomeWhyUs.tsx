@@ -17,8 +17,8 @@ const REASONS = [
     description: 'We will discuss the job, quote and next steps for your project.',
   },
   {
-    title: 'Services for your property',
-    description: 'Our services include fencing, landscaping, roof repairs, roof painting, painter work, ceiling and wall painting.',
+    title: 'Painting services',
+    description: 'Our services include roof painting, interior and exterior house painting, roof repairs, and ceiling and wall painting.',
   },
 ];
 
@@ -79,8 +79,8 @@ export default function HomeWhyUs() {
                 {/* Additional home repairs imagery */}
                 <div className="col-span-2 sm:col-span-1 relative aspect-square bg-mist overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/roof-repair.png"
-                    alt="Project residencial"
+                    src="/images/painter-interior-1.jpg"
+                    alt="Painter applying paint to a home interior"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover"
@@ -89,14 +89,14 @@ export default function HomeWhyUs() {
                 {/* Project residencial detail */}
                 <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#FFF9E8] overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/roofb3-1.jpg"
-                    alt="Repairs and property care"
+                    src="/images/painter-interior-2.jpg"
+                    alt="Painter working on a freshly prepared wall"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover object-top"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-[#29221D]/80 text-paper font-body text-12 px-3 py-2 text-center">
-                     Property repairs
+                     Painting services
                   </div>
                 </div>
               </div>

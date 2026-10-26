@@ -11,17 +11,17 @@ import { BASE_URL, generateLocalBusinessSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'Dom's Painting | Painting services in Ayr',
+    default: 'Dom’s Painting | Painting services in Ayr',
     template: '%s',
   },
   description:
-    'Residential painting, roof painting and outdoor services in Ayr. Call Dom's Painting on +61 432 453 918.',
+    'Residential painting, roof painting and outdoor services in Ayr. Call Dom’s Painting on +61 432 453 918.',
   keywords: [
-    'Dom's Painting',
+    'Dom’s Painting',
     'painting services Ayr and surrounding areas',
     'residential painting',
   ],
-  authors: [{ name: 'Dom's Painting' }],
+  authors: [{ name: 'Dom’s Painting' }],
   icons: {
     icon: [
       { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
